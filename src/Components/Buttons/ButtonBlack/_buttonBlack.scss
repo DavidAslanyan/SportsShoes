@@ -1,0 +1,16 @@
+.buttonBlack {
+  margin: 30px 0 0 0;
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 15px 55px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+  transition: 0.5s ease;
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
+}

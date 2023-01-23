@@ -1,0 +1,99 @@
+.cartMain {
+  padding: 100px 0 0 0;
+  background-image: url('https://background-tiles.com/overview/white/patterns/large/1023.png');
+  min-height: 100vh;
+
+  &__empty {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  &__emptyImage {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  &__emptyTitle {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0;
+  }
+
+  &__emptyButton {
+    margin: 10px 5px;
+    padding: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &__title {
+    font-family: 'Zen Dots', cursive;
+    text-align: center;
+  }
+
+  &__upper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 50px;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__total {
+    font-family: 'Montserrat', sans-serif;
+    @media (max-width: 534px) {
+      padding: 20px 0;
+    }
+    
+    &--colored {
+      padding: 5px;
+      background-color: #00ffd4e3;
+      border-radius: 8px;
+      color: #000;
+
+      @media (max-width: 534px) {
+        position: relative;
+        top: 10px;
+      }
+    }
+  }
+
+  &__purchaseButton {
+    background-color: #ffd700;
+    padding: 10px 20px;
+    border: 1px solid #ffd700;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.25s ease;
+    cursor: pointer;
+  }
+
+  &__clearButton {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    transition: 0.25s ease;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}

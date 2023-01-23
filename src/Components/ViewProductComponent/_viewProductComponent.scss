@@ -1,0 +1,45 @@
+.viewProduct {
+
+  &__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 1000;
+  }
+
+  &__center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 50px;
+    z-index: 1000;
+
+    @media(max-width: 880px) {
+      font-size: 14px;
+      max-width: 300px;
+    }
+
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__close {
+    font-size: 48px;
+    cursor: pointer;
+
+    @media(max-width: 880px) {
+      font-size: 12px;
+    }
+  }
+}

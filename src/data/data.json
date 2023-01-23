@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Sneakers",
+    "firm": "Nike",
+    "rating": 5,
+    "price": 50,
+    "imgUrl": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ed291e67-4618-49ec-8dda-2c2221a5df41/revolution-6-next-nature-mens-road-running-shoes-FgfhgR.png"
+  },
+  {
+    "id": 2,
+    "name": "Air Jordans",
+    "firm": "Nike",
+    "rating": 5,
+    "price": 150,
+    "imgUrl": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/5e3e800b-9e55-4f03-938d-2cf7292e3e2b/air-jordan-1-hi-flyease-mens-shoes-VjGcGX.png"
+  },
+  {
+    "id": 3,
+    "name": "Reebok Classic",
+    "firm": "Reebok",
+    "rating": 4,
+    "price": 300,
+    "imgUrl": "https://static.footshop.com/750778/218266.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Puma Sneakers",
+    "firm": "Puma",
+    "rating": 5,
+    "price": 110,
+    "imgUrl": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_800,h_800/global/374915/04/sv01/fnd/PNA/fmt/png/Suede-Classic-XXI-Men's-Sneakers"
+  },
+  {
+    "id": 5,
+    "name": "Primeblue Shoes",
+    "firm": "Adidas",
+    "rating": 4,
+    "price": 180,
+    "imgUrl": "https://images.tokopedia.net/img/cache/500-square/product-1/2020/2/14/1286510/1286510_2abd5ae2-fb25-4fdd-8ed0-29e1326d50af_840_840.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Adizero Boston",
+    "firm": "Adidas",
+    "rating": 3,
+    "price": 80,
+    "imgUrl": "https://product-images.21run.com/product/a/9/e/e/a9ee323bf4fd8cfc01f4a573ee9d99accbdd84ac_DSC00555_1.jpg?auto=compress&fill=solid&fill-color=ffffff&fit=fillmax&h=1250&w=1250&s=b512e45b545baff542e34710d6aee6de"
+  },
+  {
+    "id": 7,
+    "name": "Puma Softride",
+    "firm": "Puma",
+    "rating": 5,
+    "price": 590,
+    "imgUrl": "https://images.puma.net/images/376540/01/sv01/fnd/PNA/.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Air Zoom",
+    "firm": "Nike",
+    "rating": 4,
+    "price": 490,
+    "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e8e530a3-2317-4783-819b-40860281daaf/streakfly-road-racing-shoes-V17qZm.png"
+  },
+  {
+    "id": 9,
+    "name": "Nike Training",
+    "firm": "Reebok",
+    "rating": 5,
+    "price": 90,
+    "imgUrl": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a6f43e33-dab2-4cce-8f91-036fa96a7ae9/revolution-6-next-nature-road-running-shoes-hbjW0p.png"
+  }
+]

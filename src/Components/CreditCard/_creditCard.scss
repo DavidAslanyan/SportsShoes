@@ -1,0 +1,118 @@
+.credit {
+
+  &__template {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    @media (max-width: 900px) {
+      display: none;
+    }
+  }
+
+  &__front {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: #0000003d 0px 3px 8px;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20211021/pngtree-elegant-black-and-orange-abstract-wave-background-image_912724.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #fff;
+  }
+
+  &__top {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+
+    &--card {
+      font-size: 28px;
+      letter-spacing: 4px;
+    }
+
+    &--name {
+      padding: 10px 0;
+    }
+  }
+
+  &__expiration {
+    position: absolute;
+    top: 220px;
+    left: 30px;
+
+    &--title {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    &--titleWifi {
+      font-size: 24px;
+    }
+  }
+
+  &__expiration--date {
+    display: flex;
+  }
+
+  &__banksList {
+    position: absolute;
+    top: 160px;
+    right: 40px;
+  }
+
+  &__banksImage {
+    width: 70px;
+    height: auto;
+  }
+
+  &__back {
+    position: relative;
+    bottom: 40px;
+  }
+
+  &__cvv {
+    padding: 75px 25px 25px 25px;
+    text-align: end;
+
+    &--title {
+      padding: 0 5px 0 0;
+    }
+
+    &--input {
+      position: relative;
+      padding: 7px;
+      background-color: #fcfcfc;
+      border-radius: 5px;
+      color: #000;
+    }
+
+    &--button {
+      margin: 5px 0;
+      padding: 1px 4px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  }
+
+  &__payButton {
+    margin: 15px 0;
+    padding: 15px 40px;
+    background-color: #00ffd4e3;
+    border: 1px solid #00ffd4e3;
+    font-size: 18px;
+    transition: 0.25s ease;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+
+}

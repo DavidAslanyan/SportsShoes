@@ -1,0 +1,105 @@
+.homepage {
+  font-family: 'Zen Dots', cursive;
+  height: 100%;
+  padding: 58px 0 0 0;
+  
+  &__top {
+    background-image: url('https://wallpapers.com/images/hd/kobe-bryant-dunk-in-black-s2t5w5q61ie788h6.jpg');
+    background-color: #000;
+    width: 100%;
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (max-width: 450px) {
+      height: 60vh;
+    }
+  }
+
+  &__video {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+  }
+
+  &__text {
+    padding: 180px 0 0 0;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    color: #00ffd4e3;
+
+    @media (max-width: 450px) {
+      padding: 80px 0 0 0;
+    }
+  }
+
+  &__title {
+    padding: 10px 0;
+    font-size: 1em;
+
+    @media (max-width: 525px) {
+      font-size: 1em;
+    }
+  }
+
+  &__quote {
+    padding: 10px 0;
+    font-size: 3em;
+
+    @media (max-width: 525px) {
+      font-size: 2em;
+    }
+  }
+
+  &__button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+    &:hover {
+      background-color: orange;
+      border-color: orange;
+      box-shadow: orange 0px 5px 16px;
+    }
+
+    @media (max-width: 525px) {
+      padding: 10px;
+      font-size: 18px;
+    }
+  }
+
+  &__bottomContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 60px 0 30px 0;
+
+    @media (max-width: 740px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__bottomRight {
+    padding: 20px 0 0 0px;
+    width: 100%;
+    max-width: 400px;
+
+    @media (max-width: 430px) {
+      text-align: center;
+    }
+  }
+
+  &__bottomArticle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+  }
+}

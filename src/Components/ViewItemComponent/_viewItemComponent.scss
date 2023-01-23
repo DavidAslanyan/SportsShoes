@@ -1,0 +1,136 @@
+.viewItem {
+  font-family: 'Montserrat', sans-serif;
+
+  &__info {
+    line-height: 1.3rem;
+  }
+
+  &__right {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    gap: 20px;
+
+    @media(max-width: 880px) {
+      flex-direction: column;
+    }
+
+    @media(max-width: 525px) {
+      flex-direction: column;
+    }
+  }
+
+  &__image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+
+    @media(max-width: 880px) {
+      width: 200px;
+      height: 120px;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+  }
+
+  &__price--colored {
+    color: #800080;
+  }
+
+  &__producer {
+    padding: 0 0 15px 0;
+  }
+
+  &__producer--colored {
+    color: #800080;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 15px 0;
+    gap: 5px;
+  }
+
+  &__item {
+    border: 2px solid grey;
+    width: 32px;
+    color: #800080;
+    text-align: center;
+  }
+
+  &__description {
+    color: #800080;
+
+    @media(max-width: 880px) {
+      display: none;
+    }
+  }
+
+  &__article {
+    width: 100%;
+    max-width: 400px;
+
+    @media(max-width: 880px) {
+      display: none;
+    }
+  }
+
+  &__footer {
+    padding: 40px 0 0 0;
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    @media(max-width: 880px) {
+      padding: 0;
+    }
+  }
+
+  &__button {
+    font-size: 18px;
+    padding: 15px 30px;
+    transition: 0.25s ease;
+    cursor: pointer;
+
+    @media(max-width: "880px") {
+      padding: 5px 20px;
+    }
+
+    &--close {
+      background-color: transparent;
+      border: 1px solid #000000;
+
+      &:hover {
+        background-color: #000000;
+        color: #fff;
+      }
+    }
+
+    &--add {
+      background-color: transparent;
+      border: 1px solid #000000;
+
+      &:hover {
+        background-color: #00ffd4e3;
+        border: 1px solid #00ffd4e3;
+      }
+    }
+
+    &--added {
+      background-color: transparent;
+      border: 1px solid #008000;
+      color: #008000;
+
+      &:hover {
+        background-color: #008000;
+        color: #fff;
+      }
+    }
+  }
+}

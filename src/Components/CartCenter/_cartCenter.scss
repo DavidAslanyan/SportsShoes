@@ -1,0 +1,106 @@
+.cartCenter {
+  background-color: #0000007a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  &__container {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    width: 400px;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: #0000003d 0px 3px 8px;
+    background-color: #fff;
+
+    @media (max-width: 480px) {
+      width: 300px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  &__title {
+    padding: 30px 0 0 0;
+    font-family: 'Zen Dots', cursive;
+    font-size: 24px;
+
+    @media (max-width: 409px) {
+      padding: 70px 0 0 0;
+      font-size: 14px; 
+     }
+  }
+
+  &__close {
+    font-size: 48px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+
+    @media (max-width: 409px) {
+      top: 47px;
+     }
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    bottom: 0;
+    padding: 20px 0 40px 0;
+    background-color: #000;
+    color: #fff;
+
+    @media (max-width: 480px) {
+      width: 300px;
+    }
+  }
+
+  &__footerButton {
+    margin: 10px 0;
+    transition: 0.25s ease;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+
+    &--top {
+      padding: 8px 15px;
+      border: 1px solid #fff;
+      background-color: transparent;
+      color: #fff;
+
+      &:hover {
+        background-color: #fff;
+        color: #000;
+      }
+    }
+
+    &--bottom {
+      padding: 8px 28px;
+      background-color: transparent;
+      border: 1px solid #00ffd4e3;
+      color: #00ffd4e3;
+
+      &:hover {
+        box-shadow: orange 0px 5px 16px;
+        background-color: #00ffd4e3;
+        color: #000;
+      }
+    }
+  }
+
+  &__total--colored {
+    color: #00ffd4e3;
+  }
+}

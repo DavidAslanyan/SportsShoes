@@ -1,0 +1,163 @@
+input {
+  padding: 10px 30px 10px 10px;
+  font-size: 14px;
+}
+
+.creditMain {
+  height: 100vh;
+  background-image: url('https://background-tiles.com/overview/white/patterns/large/1023.png');
+}
+
+.credit {
+  padding: 150px 0 0 15px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  max-width: 1170px;
+  margin: 0 auto;
+  gap: 10px;
+
+  @media(max-width: 900px) {
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__title {
+    font-family: 'Zen Dots', cursive;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  &__input {
+    border: 2px solid black;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__front {
+    z-index: 2;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: #0000003d 0px 3px 8px;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20211021/pngtree-elegant-black-and-orange-abstract-wave-background-image_912724.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #fff;
+  }
+
+  &__top {
+    position: relative;
+    top: 120px;
+    left: 30px;
+
+    &--card {
+      font-size: 28px;
+      letter-spacing: 4px;
+    }
+
+    &--name {
+      padding: 10px 0;
+    }
+  }
+
+  &__expiration {
+    position: relative;
+    top: 160px;
+    left: 30px;
+
+    &--title {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    &--titleWifi {
+      font-size: 24px;
+    }
+  }
+
+  &__expiration--date {
+    display: flex;
+  }
+
+  &__banksList {
+    position: absolute;
+    top: 160px;
+    right: 40px;
+  }
+
+  &__banksImage {
+    width: 70px;
+    height: auto;
+  }
+
+  &__back {
+    z-index: 1;
+    position: relative;
+    left: 70px;
+    bottom: 340px;
+    border-radius: 15px;
+    box-shadow: #0000003d 0px 3px 8px;
+    background-image: url('https://media.istockphoto.com/id/1202855261/vector/black-background-55.jpg?s=612x612&w=0&k=20&c=cQ9cda0j6gKqhNbyh_n6Uzc6_9PPgwOPw4dki92oZUE=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 500px;
+    height: 300px;
+  }
+
+  &__cvv {
+    padding: 75px 25px 25px 25px;
+    text-align: end;
+
+    &--title {
+      padding: 0 5px 0 0;
+    }
+
+    &--input {
+      position: relative;
+      padding: 7px;
+      background-color: #fcfcfc;
+      border-radius: 5px;
+      color: #000;
+    }
+  }
+
+  &__payButton {
+    margin: 15px 0;
+    padding: 15px 40px;
+    background-color: gold;
+    border: 1px solid gold;
+    font-size: 18px;
+    transition: 0.25s ease;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #000;
+      border-color: #000;
+      color: #fff;
+    }
+  }
+
+  &__month--input {
+    padding: 10px 0;
+    width: 40px;
+  }
+
+  &__year {
+    padding: 0 0 0 10px;
+  }
+}

@@ -1,0 +1,21 @@
+.form {
+  padding: 30px 0 0 0;
+  text-align: center;
+
+  &__input {
+    padding: 15px 70px 15px 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  &__input:focus {
+    outline: none;
+  }
+
+  &__search {
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-size: 36px;
+  }
+}

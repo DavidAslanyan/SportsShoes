@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+  transition: 0.25s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.pageContent {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.pageMain {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
